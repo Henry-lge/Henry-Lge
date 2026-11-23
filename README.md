@@ -24,6 +24,7 @@ name:      Henry
 role:      Dualer Student · Wirtschaftsinformatik (Anwendungsentwicklung)
 founder:   MoonProtect
 focus:     [Java, Minecraft Security, AI Agents, Self-Hosting]
+offline:   Freiwillige Feuerwehr 🚒
 ```
 
 <br>
@@ -36,9 +37,12 @@ focus:     [Java, Minecraft Security, AI Agents, Self-Hosting]
       <h3>🛡️ <a href="https://moonprotect.com">MoonProtect</a></h3>
       <p>Sicherheits-Plugins für Minecraft-Server – Schutz, der einfach funktioniert.</p>
       <p>
+        <b>MoonCheat</b> · Anticheat zur Erkennung von Cheats und Exploits
+      </p>
+      <p>
         <img src="https://img.shields.io/badge/Java-111111?style=flat-square&logo=openjdk&logoColor=8B7CF6" />
         <img src="https://img.shields.io/badge/Minecraft-111111?style=flat-square&logo=minecraft&logoColor=8B7CF6" />
-        <img src="https://img.shields.io/badge/Paper / Velocity-111111?style=flat-square&logo=gradle&logoColor=8B7CF6" />
+        <img src="https://img.shields.io/badge/Paper%20%2F%20Spigot-111111?style=flat-square&logo=gradle&logoColor=8B7CF6" />
       </p>
     </td>
   </tr>
@@ -59,7 +63,7 @@ focus:     [Java, Minecraft Security, AI Agents, Self-Hosting]
 ## `> stats`
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Henry-lge&commits_year=2026&cb=20261123&show_icons=true&hide_border=true&bg_color=0d1117&title_color=8B7CF6&icon_color=8B7CF6&text_color=c9d1d9&rank_icon=github" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Henry-lge&commits_year=2026&cb=20261123&hide=contribs&show_icons=true&hide_border=true&bg_color=0d1117&title_color=8B7CF6&icon_color=8B7CF6&text_color=c9d1d9&rank_icon=github" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Henry-lge&layout=compact&hide_border=true&bg_color=0d1117&title_color=8B7CF6&text_color=c9d1d9" />
 </p>
 

@@ -1,0 +1,26 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # täglich ca. 03:17 Uhr (deutsche Zeit)
+  workflow_dispatch:        # manuell startbar über den Actions-Tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Jahr + Cache-Buster aktualisieren
+        run: |
+          sed -i "s/commits_year=[0-9]\{4\}/commits_year=$(date +%Y)/g" README.md
+          sed -i "s/cb=[0-9]\{8\}/cb=$(date +%Y%m%d)/g" README.md
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git commit -am "chore: update stats $(date +%F)" && git push)

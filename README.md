@@ -36,12 +36,28 @@ focus:     [Java, Minecraft Security, AI Agents, Self-Hosting]
       <h3>🛡️ <a href="https://moonprotect.com">MoonProtect</a></h3>
       <p>Sicherheits-Plugins für Minecraft-Server – Schutz, der einfach funktioniert.</p>
       <p>
-        <b>MoonCheat</b> · Anticheat zur Erkennung von Cheats und Exploits
+        <b>MoonCheat</b> · Multiversion-Anticheat für Movement, Combat, World und Pakete<br>
+        <b>MoonCrash</b> · Crash- und Exploit-Schutz gegen Pakete, Frames, Items und Welt-Lag<br>
+        <b>MoonGuard</b> · Anti-Bot, Verbindungsschutz, Lockdown/Captcha und Chat-Filter<br>
+        <b>MoonStaff</b> · Reports, Strafen, Vanish, Staff-Modus, 2FA und Freeze<br>
+        <b>MoonPerms</b> · Rechte-System mit Hierarchie, Tracks und Kontexten<br>
+        <b>MoonReplay</b> · Dauer-Aufnahme mit Clips bei Alerts und Reports, Betrachter im Spiel<br>
+        <b>MoonCloud</b> · Eigenes Cloud-System mit Controller, Hosts, Balancer und Docker/K8s<br>
+        <b>Webpanel</b> · Staff- und Admin-Panel mit Spring Boot und React
       </p>
       <p>
         <img src="https://img.shields.io/badge/Java-111111?style=flat-square&logo=openjdk&logoColor=8B7CF6" />
-        <img src="https://img.shields.io/badge/Minecraft-111111?style=flat-square&logo=minecraft&logoColor=8B7CF6" />
-        <img src="https://img.shields.io/badge/Paper%20%2F%20Spigot-111111?style=flat-square&logo=gradle&logoColor=8B7CF6" />
+        <img src="https://img.shields.io/badge/Paper%20%2F%20Folia-111111?style=flat-square&logo=spigotmc&logoColor=8B7CF6" />
+        <img src="https://img.shields.io/badge/Velocity%20%2F%20BungeeCord-111111?style=flat-square&logo=&logoColor=8B7CF6" />
+        <img src="https://img.shields.io/badge/Netty-111111?style=flat-square&logo=&logoColor=8B7CF6" />
+        <img src="https://img.shields.io/badge/Spring%20Boot-111111?style=flat-square&logo=springboot&logoColor=8B7CF6" />
+        <img src="https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=8B7CF6" />
+        <img src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=8B7CF6" />
+        <img src="https://img.shields.io/badge/MariaDB-111111?style=flat-square&logo=mariadb&logoColor=8B7CF6" />
+        <img src="https://img.shields.io/badge/Redis-111111?style=flat-square&logo=redis&logoColor=8B7CF6" />
+        <img src="https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker&logoColor=8B7CF6" />
+        <img src="https://img.shields.io/badge/Kubernetes-111111?style=flat-square&logo=kubernetes&logoColor=8B7CF6" />
+        <img src="https://img.shields.io/badge/Gradle-111111?style=flat-square&logo=gradle&logoColor=8B7CF6" />
       </p>
     </td>
   </tr>

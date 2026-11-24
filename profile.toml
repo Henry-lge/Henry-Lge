@@ -1,6 +1,27 @@
+[header]
 name     = "Henry"
 subtitle = "Developer · Wirtschaftsinformatik"
+
+# Zeilen der Tipp-Animation (beliebig viele)
 typing = [
   "Wirtschaftsinformatik · Anwendungsentwicklung",
   "Full-Stack · Java · TypeScript · Docker",
 ]
+
+# Farben (ohne #)
+accent   = "8B7CF6"
+gradient = ["0f0c29", "302b63", "5b3fd9"]
+
+# Links unter dem Header
+[[header.links]]
+label = "henry-lge.me"
+url   = "https://henry-lge.me"
+logo  = "googlechrome"
+
+[[header.links]]
+label = "moonprotect.com"
+url   = "https://moonprotect.com"
+logo  = "minecraft"
+
+[github]
+username = "Henry-lge"

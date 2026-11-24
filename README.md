@@ -51,10 +51,36 @@ focus:     [Java, Minecraft Security, AI Agents, Self-Hosting]
 
 ## `> stack`
 
+**Languages**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=java,python,powershell,js,ts,html,css&theme=dark" />
-  <br>
-  <img src="https://skillicons.dev/icons?i=idea,vscode,git,github,docker,linux,nginx,mysql,gradle&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=java,kotlin,python,rust,ts,js,swift,cs,c,powershell,bash,html,css&theme=dark" />
+</p>
+
+**Frameworks & Libraries**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=spring,react,vite,tailwind,threejs,tauri,dotnet,vitest&theme=dark" />
+</p>
+
+**Databases & Infrastructure**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,docker,kubernetes,linux,nginx&theme=dark" />
+</p>
+
+**Tools & Build**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=idea,vscode,git,github,githubactions,gradle,maven,cmake&theme=dark" />
+</p>
+
+**Minecraft & More**
+<p align="left">
+  <img src="https://img.shields.io/badge/Paper%20%2F%20Folia-111111?style=flat-square&logo=minecraft&logoColor=8B7CF6" />
+  <img src="https://img.shields.io/badge/Velocity%20%2F%20BungeeCord-111111?style=flat-square&logo=minecraft&logoColor=8B7CF6" />
+  <img src="https://img.shields.io/badge/Fabric-111111?style=flat-square&logo=minecraft&logoColor=8B7CF6" />
+  <img src="https://img.shields.io/badge/Netty-111111?style=flat-square&logo=openjdk&logoColor=8B7CF6" />
+  <img src="https://img.shields.io/badge/MariaDB-111111?style=flat-square&logo=mariadb&logoColor=8B7CF6" />
+  <img src="https://img.shields.io/badge/Claude%20Agent%20SDK-111111?style=flat-square&logo=anthropic&logoColor=8B7CF6" />
+  <img src="https://img.shields.io/badge/n8n-111111?style=flat-square&logo=n8n&logoColor=8B7CF6" />
+  <img src="https://img.shields.io/badge/Caddy-111111?style=flat-square&logo=caddy&logoColor=8B7CF6" />
 </p>
 
 <br>

@@ -1,24 +1,15 @@
-# ─────────────────────────────────────────────
-#  Header-Texte – hier einfach ändern.
-#  Danach: python3 scripts/build_readme.py
-#  (oder pushen – die GitHub Action baut README.md automatisch)
-# ─────────────────────────────────────────────
-
 [header]
 name     = "Henry"
 subtitle = "Developer · Wirtschaftsinformatik"
 
-# Zeilen der Tipp-Animation (beliebig viele)
 typing = [
   "Wirtschaftsinformatik · Anwendungsentwicklung",
   "Full-Stack · Java · TypeScript · Docker",
 ]
 
-# Farben (ohne #)
 accent   = "8B7CF6"
 gradient = ["0f0c29", "302b63", "5b3fd9"]
 
-# Links unter dem Header
 [[header.links]]
 label = "henry-lge.me"
 url   = "https://henry-lge.me"
@@ -29,10 +20,6 @@ label = "moonprotect.com"
 url   = "https://moonprotect.com"
 logo  = "minecraft"
 
-# ─────────────────────────────────────────────
-#  Projekte – jeder [[projects]]-Block ist eine Karte.
-#  Neues Projekt: Block kopieren und Werte ändern.
-# ─────────────────────────────────────────────
 
 [[projects]]
 emoji       = "🛡️"
@@ -40,12 +27,10 @@ name        = "MoonProtect"
 url         = "https://moonprotect.com"
 description = "Sicherheits-Plugins für Minecraft-Server – Schutz, der einfach funktioniert."
 
-  # Unterprojekte (optional, beliebig viele)
   [[projects.items]]
   name        = "MoonCheat"
   description = "Anticheat zur Erkennung von Cheats und Exploits"
 
-  # Badges (optional, logo = Name von simpleicons.org)
   [[projects.badges]]
   label = "Java"
   logo  = "openjdk"

@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/Henry-lge">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=8B7CF6&center=true&vCenter=true&width=680&lines=Wirtschaftsinformatik+%C2%B7+Anwendungsentwicklung;Java+%C2%B7+AI+Agents+%C2%B7+Self-Hosting" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=8B7CF6&center=true&vCenter=true&width=680&lines=Wirtschaftsinformatik+%C2%B7+Anwendungsentwicklung;Full-Stack+%C2%B7+Java+%C2%B7+TypeScript+%C2%B7+Docker" alt="Typing SVG" />
   </a>
 </p>
 

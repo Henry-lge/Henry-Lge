@@ -20,7 +20,6 @@ label = "moonprotect.com"
 url   = "https://moonprotect.com"
 logo  = "minecraft"
 
-
 [[projects]]
 emoji       = "🛡️"
 name        = "MoonProtect"
@@ -29,18 +28,82 @@ description = "Sicherheits-Plugins für Minecraft-Server – Schutz, der einfach
 
   [[projects.items]]
   name        = "MoonCheat"
-  description = "Anticheat zur Erkennung von Cheats und Exploits"
+  description = "Multiversion-Anticheat für Movement, Combat, World und Pakete"
 
+  [[projects.items]]
+  name        = "MoonCrash"
+  description = "Crash- und Exploit-Schutz gegen Pakete, Frames, Items und Welt-Lag"
+
+  [[projects.items]]
+  name        = "MoonGuard"
+  description = "Anti-Bot, Verbindungsschutz, Lockdown/Captcha und Chat-Filter"
+
+  [[projects.items]]
+  name        = "MoonStaff"
+  description = "Reports, Strafen, Vanish, Staff-Modus, 2FA und Freeze"
+
+  [[projects.items]]
+  name        = "MoonPerms"
+  description = "Rechte-System mit Hierarchie, Tracks und Kontexten"
+
+  [[projects.items]]
+  name        = "MoonReplay"
+  description = "Dauer-Aufnahme mit Clips bei Alerts und Reports, Betrachter im Spiel"
+
+  [[projects.items]]
+  name        = "MoonCloud"
+  description = "Eigenes Cloud-System mit Controller, Hosts, Balancer und Docker/K8s"
+
+  [[projects.items]]
+  name        = "Webpanel"
+  description = "Staff- und Admin-Panel mit Spring Boot und React"
+  
   [[projects.badges]]
   label = "Java"
   logo  = "openjdk"
 
   [[projects.badges]]
-  label = "Minecraft"
-  logo  = "minecraft"
+  label = "Paper / Folia"
+  logo  = "spigotmc"
 
   [[projects.badges]]
-  label = "Paper / Spigot"
+  label = "Velocity / BungeeCord"
+  logo  = ""
+
+  [[projects.badges]]
+  label = "Netty"
+  logo  = ""
+
+  [[projects.badges]]
+  label = "Spring Boot"
+  logo  = "springboot"
+
+  [[projects.badges]]
+  label = "React"
+  logo  = "react"
+
+  [[projects.badges]]
+  label = "TypeScript"
+  logo  = "typescript"
+
+  [[projects.badges]]
+  label = "MariaDB"
+  logo  = "mariadb"
+
+  [[projects.badges]]
+  label = "Redis"
+  logo  = "redis"
+
+  [[projects.badges]]
+  label = "Docker"
+  logo  = "docker"
+
+  [[projects.badges]]
+  label = "Kubernetes"
+  logo  = "kubernetes"
+
+  [[projects.badges]]
+  label = "Gradle"
   logo  = "gradle"
 
 [github]

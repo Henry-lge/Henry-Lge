@@ -1,3 +1,9 @@
+# ─────────────────────────────────────────────
+#  Header-Texte – hier einfach ändern.
+#  Danach: python3 scripts/build_readme.py
+#  (oder pushen – die GitHub Action baut README.md automatisch)
+# ─────────────────────────────────────────────
+
 [header]
 name     = "Henry"
 subtitle = "Developer · Wirtschaftsinformatik"
@@ -22,6 +28,35 @@ logo  = "googlechrome"
 label = "moonprotect.com"
 url   = "https://moonprotect.com"
 logo  = "minecraft"
+
+# ─────────────────────────────────────────────
+#  Projekte – jeder [[projects]]-Block ist eine Karte.
+#  Neues Projekt: Block kopieren und Werte ändern.
+# ─────────────────────────────────────────────
+
+[[projects]]
+emoji       = "🛡️"
+name        = "MoonProtect"
+url         = "https://moonprotect.com"
+description = "Sicherheits-Plugins für Minecraft-Server – Schutz, der einfach funktioniert."
+
+  # Unterprojekte (optional, beliebig viele)
+  [[projects.items]]
+  name        = "MoonCheat"
+  description = "Anticheat zur Erkennung von Cheats und Exploits"
+
+  # Badges (optional, logo = Name von simpleicons.org)
+  [[projects.badges]]
+  label = "Java"
+  logo  = "openjdk"
+
+  [[projects.badges]]
+  label = "Minecraft"
+  logo  = "minecraft"
+
+  [[projects.badges]]
+  label = "Paper / Spigot"
+  logo  = "gradle"
 
 [github]
 username = "Henry-lge"

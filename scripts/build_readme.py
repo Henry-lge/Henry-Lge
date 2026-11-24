@@ -17,7 +17,7 @@ def gradient(colors):
 
 def shield_label(text):
     # shields.io: "-" → "--", "_" → "__", Rest URL-kodieren
-    return quote(text.replace("-", "--").replace("_", "__"))
+    return quote(text.replace("-", "--").replace("_", "__"), safe="")
 
 
 grad = gradient(h["gradient"])
@@ -60,8 +60,38 @@ footer = f"""<!-- Footer -->
 </p>
 """
 
+def project_card(p):
+    title = f'<a href="{p["url"]}">{p["name"]}</a>' if p.get("url") else p["name"]
+    if p.get("emoji"):
+        title = f'{p["emoji"]} {title}'
+    lines = [
+        "  <tr>",
+        '    <td width="100%">',
+        f"      <h3>{title}</h3>",
+        f"      <p>{p['description']}</p>",
+    ]
+    items = p.get("items", [])
+    if items:
+        lines.append("      <p>")
+        lines.append("<br>\n".join(f"        <b>{i['name']}</b> · {i['description']}" for i in items))
+        lines.append("      </p>")
+    badges = p.get("badges", [])
+    if badges:
+        lines.append("      <p>")
+        lines += [
+            f'        <img src="https://img.shields.io/badge/{shield_label(b["label"])}-111111'
+            f'?style=flat-square&logo={b["logo"]}&logoColor={accent}" />'
+            for b in badges
+        ]
+        lines.append("      </p>")
+    lines += ["    </td>", "  </tr>"]
+    return "\n".join(lines)
+
+
+projects = "<table>\n" + "\n".join(project_card(p) for p in cfg.get("projects", [])) + "\n</table>\n"
+
 tpl = (ROOT / "README.template.md").read_text(encoding="utf-8")
 tpl = tpl.split("\n", 1)[1] if tpl.startswith("<!-- Diese Datei") else tpl
-out = tpl.replace("{{HEADER}}\n", header + "\n").replace("{{FOOTER}}\n", footer)
+out = tpl.replace("{{HEADER}}\n", header + "\n").replace("{{FOOTER}}\n", footer).replace("{{PROJECTS}}\n", projects)
 (ROOT / "README.md").write_text(out, encoding="utf-8")
 print("README.md aktualisiert")

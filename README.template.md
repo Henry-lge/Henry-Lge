@@ -15,22 +15,7 @@ focus:     [Java, Minecraft Security, AI Agents, Self-Hosting]
 
 ## `> projects`
 
-<table>
-  <tr>
-    <td width="100%">
-      <h3>🛡️ <a href="https://moonprotect.com">MoonProtect</a></h3>
-      <p>Sicherheits-Plugins für Minecraft-Server – Schutz, der einfach funktioniert.</p>
-      <p>
-        <b>MoonCheat</b> · Anticheat zur Erkennung von Cheats und Exploits
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Java-111111?style=flat-square&logo=openjdk&logoColor=8B7CF6" />
-        <img src="https://img.shields.io/badge/Minecraft-111111?style=flat-square&logo=minecraft&logoColor=8B7CF6" />
-        <img src="https://img.shields.io/badge/Paper%20%2F%20Spigot-111111?style=flat-square&logo=gradle&logoColor=8B7CF6" />
-      </p>
-    </td>
-  </tr>
-</table>
+{{PROJECTS}}
 
 <br>
 
